@@ -19,7 +19,7 @@ prune_bundler
 
 on_restart do
   puts 'Refreshing Gemfile'
-  ENV['BUNDLE_GEMFILE'] = '/srv/{{ projectName }}/{{ backendPart }}/current/Gemfile'
+  ENV['BUNDLE_GEMFILE'] = '/.../Gemfile'
 end
 
 #
